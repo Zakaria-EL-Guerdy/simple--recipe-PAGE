@@ -1,0 +1,84 @@
+body{
+  background-color: hsl(336, 71%, 95%);
+}
+section{
+  width: 50vw;
+  min-width: 300px;
+  background-color: white;
+  margin: 80px auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+img{
+  width: 95%;
+  margin: 15px 0 0 17px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 36px;
+  margin-left: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+p{
+  margin-left: 16px;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+.Preparation{
+  width: 48vw;
+  min-width: 300px;
+  background-color: hsl(336, 71%, 95%);
+  margin-top: 15px;
+  margin-left: 11px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+#first{
+  color: purple;
+  /*font-family: "Gill Sans", sans-serif;*/
+  font-family: system-ui;
+  font-weight: bold;
+}
+li{
+  margin: 10px 0;
+  text-indent: 10px;
+  font-family: system-ui;
+}
+li#one::marker{
+  color: purple;
+}
+li#two::marker{
+  color: #922724;
+}
+#title1{
+  margin-left: 11px;
+  margin-top: 15px;
+  font-size: 27px;
+  color: #922724;
+  font-family:'Times New Roman', Times, serif;
+}
+hr{
+  width: 97%;
+  margin-left: 10px;
+}
+ol li{
+  text-align: inherit;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.bold{
+  font-weight: bold;
+  color: #922724;
+}
+#nutrition{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
